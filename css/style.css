@@ -218,6 +218,8 @@ nav ul li a:hover {
 /* HERO */
 .hero {
     padding: 72px 0 80px;
+    /* background-color: rgb(26 30 36); */
+    background-color: #333232;
 }
 
 .hero-grid {
@@ -231,6 +233,7 @@ nav ul li a:hover {
     font-size: clamp(32px, 4.6vw, 48px);
     line-height: 1.14;
     margin-bottom: 18px;
+    color: #fff;
 }
 
 .hero p.lede {
@@ -238,6 +241,7 @@ nav ul li a:hover {
     font-size: 16.5px;
     max-width: 460px;
     margin-bottom: 30px;
+    color: #fff;
 }
 
 .hero-ctas {
@@ -330,7 +334,7 @@ nav ul li a:hover {
 /* COMPONENTS */
 .components-grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 16px 40px;
 }
 
@@ -445,7 +449,7 @@ nav ul li a:hover {
     display: flex;
     gap: 12px;
     align-items: flex-start;
-    padding: 14x 0;
+    padding: 14px 0;
 }
 
 .why-check {
@@ -534,7 +538,8 @@ nav ul li a:hover {
     margin-bottom: 10px;
  }
 
- .footer-grid ul li a, p {
+ .footer-grid ul li a,
+ .footer-grid p {
     color: var(--text-muted);
     font-size: 14px;
  }
